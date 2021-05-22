@@ -31,7 +31,7 @@ Maven is a powerful project management tool that is based on POM (project object
 | mvn site:site                    | Generates a site for the project                              |
 | mvn test                         | To run the test cases                                         |
 | mvn compile                      | To compile the source Java classes                            |
-| mvn verify                       | Run checks on results of integration tests                    |
+| mvn verify                       | Run check-ups to verify the package and meets criteria        |
 
 ## Maven Options
 | **Option**            |**Description**                          |
