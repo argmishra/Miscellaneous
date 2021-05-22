@@ -1,10 +1,5 @@
 # Miscellaneous
 This is repo for miscellaneous technology which are used for software development.
 
-[Maven](Miscellaneous/blob/master/maven/Maven.md)
-[Maven](maven)
-    * <a href="maven/Maven.md">Maven</a>
-<a href="maven/Maven.md">Maven</a>
-
-
-
+1. <a href="maven/Maven.md">Maven</a>
+2. <a href="web-service/Services.md">Web Services</a>
