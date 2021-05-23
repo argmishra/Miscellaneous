@@ -1,5 +1,5 @@
 ## Maven
-Maven is a powerful project management tool that is based on POM (project object model). It is used for projects build, dependency and documentation.
+Maven is a powerful project management tool that is based on POM (project object model). It is used for project build, dependency and documentation.
 | **Name**          |**Description**                                                             |
 |-------------------| ---------------------------------------------------------------------------|
 | Build Life Cycles | Default, Clean and Site                                                    |
@@ -9,9 +9,9 @@ Maven is a powerful project management tool that is based on POM (project object
 ## Advantages
 1. Generates source code and its documentation.
 2. Compiles and package source code.
-3. Installs the packaged code in local repository, server repository, or central repository.
+3. Installs the packaged code in the local repository, server repository, or central repository.
 4. It makes a project easy to build.
-5. It provides uniform build process.
+5. It provides a uniform build process.
 6. Isolation between project dependencies and plugins.
 
 ## Maven Repository
