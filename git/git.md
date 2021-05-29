@@ -14,6 +14,7 @@ among the developers.
 2. Support offline working
 3. Undo mistakes
 4. Track changes
+5. Implicit backup
 
 ## Terminology
 | **Term**    |                 **Description**                         |
@@ -33,7 +34,7 @@ among the developers.
 | squash      | Combining commits                                       |
 | remote      | Remote repository                                       |
 | repository  | Contain project files                                   |
-| tag         | Specific point in git                                   |
+| tag         | Meaningful names to a specific version in the repository|
 | revert      | Revert to commit                                        |
 | ignore      | Ignore file                                             |
 | diff        | Difference between repository and local                 |
@@ -42,9 +43,10 @@ among the developers.
 | fork        | Copy of branch                                          |
 
 ## Command
-| **Command**   |                 **Description**               |                   **Sample**                                           |
+| **Command**   |                 **Description**               |                   **Example**                                          |
 |---------------|-----------------------------------------------|------------------------------------------------------------------------|
-| config        | Configures the user                           |  ```git config --global user.name argmishra```                         |
+| config        | Configures the user                           |  ```git config --global user.name argmishra```                         |           
+| config list   | List of Configuration                         |  ```git config --list``` 						                         |
 | init          | Initialize an empty repository                |  ```git init Demo```                                                   |
 | clone         | Make a copy of a repository from an given URL |  ```git clone "URL"```                                                 |
 | add           | Add one or more files                         |  ```git add .```                                                       |
@@ -58,8 +60,31 @@ among the developers.
 | remote        | Connect to remote repository                  |                                                                        |
 | stash         | Save at temporary location and revert         |  ```git stash show/save/list/apply/changes/drop/clear/nranch/pop```    |
 | ignore        | Ignore file(s)                                |  ```git ignore -i "file_name" ```                                      |
-| create branch | Create a branche                              |  ```git branch "branch_name"```                                        |
-| delete branch | Delete a branche                              |  ```git branch -d "branch_name"```                                     |
+| create branch | Create a branch                               |  ```git branch "branch_name"```                                        |
+| delete branch | Delete a branch                               |  ```git branch -d "branch_name"```                                     |
 | revert        | Revert some changes                           |  ```git revert "commit_id"```                                          |
 | rm            | Remove file                                   |  ```git rm "file_name"```                                              |
 | cherry-pick   | Cherry pick particular commit                 |  ```git cherry-pick "commit_id"```                                     |
+| show          | Show deatil of particular commit              |  ```git show "commit_id"```                                            |
+| mv            | Move from one location to another/Rename      |  ```git mv "old" "new"```                                              |
+| create tag    | Create a tag                                  |  ```git tag -a "name"```                                               |
+| delete tag    | Delete a tag                                  |  ```git tag -d "name"```                                               |
+| show tags     | Show all tags                                 |  ```git tag -l```                                                      |
+| create patch  | Create a patch                                |  ```git format-patch -1```                                             |
+| apply patch   | Apply a patch                                 |  ```git apply "patch_name"```                                          |
+| rename branch | Rename a branch                               |  ```git branch -m "old_name" "new_name"```                             |
+
+## Flow
+![Screenshot](git_cycle.png)
+![Screenshot](git/git_cycle.png)
+![Screenshot](../git_cycle.png)
+![Screenshot](./git_cycle.png)
+
+![Optional Text](../main/git/image.png)
+<img src="git/git_cycle.png">
+<img src="git_cycle.png">
+<img src="./git_cycle.png">
+<img src="../git_cycle.png">
+
+
+
