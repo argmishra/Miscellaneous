@@ -75,16 +75,7 @@ among the developers.
 | rename branch | Rename a branch                               |  ```git branch -m "old_name" "new_name"```                             |
 
 ## Flow
-![Screenshot](git_cycle.png)
-![Screenshot](git/git_cycle.png)
-![Screenshot](../git_cycle.png)
-![Screenshot](./git_cycle.png)
-
-![Optional Text](../main/git/image.png)
-<img src="git/git_cycle.png">
-<img src="git_cycle.png">
-<img src="./git_cycle.png">
-<img src="../git_cycle.png">
+![](git_cycle.png)
 
 
 
